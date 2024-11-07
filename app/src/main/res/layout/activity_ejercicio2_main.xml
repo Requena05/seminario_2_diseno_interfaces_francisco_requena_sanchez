@@ -6,8 +6,33 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Ejercicio2MainActivity">
-
     <ImageView
+        android:id="@+id/carta1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/carta1"
+        android:scaleType="fitXY"
+        android:visibility="gone"
+        />
+    <ImageView
+        android:id="@+id/carta2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/carta2"
+        android:scaleType="fitXY"
+        android:visibility="gone"
+        />
+    <ImageView
+        android:id="@+id/carta3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/carta3"
+        android:scaleType="fitXY"
+        android:visibility="gone"
+        />
+
+
+    <ImageButton
         android:id="@+id/carta_1"
         android:layout_width="wrap_content"
         android:layout_height="195dp"
@@ -18,7 +43,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         />
-    <ImageView
+    <ImageButton
         android:id="@+id/carta_2"
         android:layout_width="wrap_content"
         android:layout_height="195dp"
@@ -29,7 +54,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/carta_1"
         />
-    <ImageView
+    <ImageButton
         android:id="@+id/carta_3"
         android:layout_width="wrap_content"
         android:layout_height="195dp"
