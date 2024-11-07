@@ -13,13 +13,18 @@
         android:theme="@style/Theme.Seminario_2_Diseño_Interfaces_FranciscoRequenaSánchez"
         tools:targetApi="31">
         <activity
-            android:name=".Ejercicio2MainActivity"
-            android:exported="true">
+            android:name=".Ejercicio3MainActivity"
+            android:exported="true" >
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
 
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
+        </activity>
+        <activity
+            android:name=".Ejercicio2MainActivity"
+            android:exported="false">
+
         </activity>
         <activity
             android:name=".Ejercicio1Explosioncita"
